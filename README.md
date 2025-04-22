@@ -115,6 +115,8 @@ Normalize our dataset.
 
 <H3>Program:</H3> 
 
+```
+
 import pandas as pd
 
 import sklearn
@@ -235,9 +237,15 @@ print(confusion_matrix(testing_b,predicted_values))
 
 print(classification_report(testing_b,predicted_values))
 
+```
+
 <H3>Output:</H3>
 
-Show your results here
+![Screenshot 2025-04-22 194823](https://github.com/user-attachments/assets/5f628997-603c-405d-95ea-8ea1b2e64ac0)
+
+![Screenshot 2025-04-22 194910](https://github.com/user-attachments/assets/9b2711ba-a9cb-40e2-9cf6-aedf59843cc2)
+
+
 
 <H3>Result:</H3>
 Thus, MLP is implemented for multi-classification using python.
