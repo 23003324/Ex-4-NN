@@ -96,7 +96,7 @@ In the backward pass,
 ![image](https://user-images.githubusercontent.com/112920679/198814362-05a251fd-fceb-43cd-867b-75e6339d870a.png)
 
 <H3>Algorithm:</H3>
-
+```
 1. Import the necessary libraries of python.
 
 2. After that, create a list of attribute names in the dataset and use it in a call to the read_csv() function of the pandas library along with the name of the CSV file containing the dataset.
@@ -187,6 +187,7 @@ print(predictions)
 print(confusion_matrix(y_test,predictions))
 
 print(classification_report(y_test,predictions))
+```
 
 <H3>Output:</H3>
 
